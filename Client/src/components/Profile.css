@@ -1,0 +1,27 @@
+.profile-pic-card{
+    height: 5rem;
+    width:5rem;
+    margin:auto;
+    border-radius: 100%;
+    color:white;
+    font-weight:bold;
+}
+.img-text{
+    font-size: 10px;
+    visibility: hidden;
+    opacity: 0;
+    cursor: pointer;
+    transition: opacity .2s, visibility .2s;
+}
+.profile-pic-card:hover .img-text{
+    visibility: visible;
+    opacity: 2;
+}
+.profile-pic-card:hover .profile-pic{
+    opacity: .75;
+}
+
+.profile-pic{
+    height: 5rem;
+    width:5rem;
+}

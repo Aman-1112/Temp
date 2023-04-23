@@ -1,0 +1,40 @@
+#carouselExampleIndicators {
+    margin: 1rem 5rem 0 5rem;
+}
+
+.carousel-inner {
+    padding-top: 0.5rem;
+    background-color: black;
+    text-align: center;
+    height: 15rem;
+    vertical-align: middle;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-img {
+    border-radius: 100%;
+    width: 12%;
+    height: 58%;
+}
+
+.info {
+    margin-top: 1%;
+    color: white;
+}
+
+@media (max-width: 700px) {
+
+    /*apply for 700 or less*/
+    #carouselExampleIndicators {
+        margin: 1rem 2rem 0 2rem;
+    }
+
+    .carousel-img {
+        border-radius: 100%;
+        width: 40%;
+        height: 70%;
+    }
+}

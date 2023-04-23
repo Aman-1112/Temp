@@ -1,0 +1,37 @@
+.filter-tools{
+    list-style: none;
+    padding:0.5rem;
+}
+.filter-tools li{
+    padding:.8rem;
+    margin:.5rem 0;
+    font-weight: 700;
+    background-color: #f8f9fa;
+}
+.filter-tools li:hover{
+    background-color:#f1f4f6;
+}
+.dropdown-item-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.show{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0,0);
+    transition-duration: 300ms;
+    transition-property: height,transform,visibility,opacity;
+    transition-timing-function: ease-in-out;
+}
+.hide{
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(0,-20px);
+    height: 0;
+    transition-duration: 300ms;
+    transition-property: height,transform,visibility,opacity;
+    transition-timing-function: ease-in-out;
+}

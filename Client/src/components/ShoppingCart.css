@@ -1,0 +1,57 @@
+.CartItem{
+    width: 50%;
+}
+.CartItem img{
+    width: 10%;
+    height: 10%;
+}
+.sub-total{
+    position:absolute;
+    top:5rem;
+    right:5rem;
+    width: 25%;
+}
+
+@media (max-width:980px) {
+    .sub-total{
+        position: unset;
+        width: 100%;
+    }
+    .CartItem {
+        width: 100%;
+        text-align: center;
+    }
+    .CartItem img{
+        width: 60%;
+    }
+    .operator{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+}
+
+
+/* Shipping blackify */
+#step-icon .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-active {
+    color: black;
+}
+#step-icon .css-1u4zpwo-MuiSvgIcon-root-MuiStepIcon-root.Mui-completed {
+    color: black;
+}
+#check-box .css-vqmohf-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+    color: black;
+}
+#button:hover{
+    background-color: black;
+}
+/*.*/
+
+p{
+    margin:0;
+    margin-bottom: .25rem;
+}
+
+/**nav**/
+.navbar{
+    justify-content: right;
+}
